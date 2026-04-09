@@ -43,4 +43,9 @@ concurrently([
   { command: 'npm run server', name: 'SERVER', prefixColor: 'blue' },
   { command: 'npm run client', name: 'CLIENT', prefixColor: 'green' }
 ], {
-  restar
+  restartTries: 0,
+  killOthersOn: ['failure', 'success']
+}).result.catch(err => {
+  console.error('Error running fullstack:', err);
+  process.exit(1);
+});
