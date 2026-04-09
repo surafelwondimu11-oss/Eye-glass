@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "eyeglass-store",
   "version": "1.0.0",
@@ -38,42 +37,3 @@
     "stripe": "^21.0.1"
   }
 }
-=======
-{
-  "name": "pharmacy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server/utils/index.js",
-    "client": "npm run dev --prefix client/pharmacys",
-    "fullstack": "node scripts/fullstack.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.11.2",
-    "bcryptjs": "^3.0.3",
-    "body-parser": "^2.2.2",
-    "concurrently": "^9.2.1",
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^17.2.4",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.1.6",
-    "multer": "^2.0.2",
-    "mysql2": "^3.17.1",
-    "nodemon": "^3.1.11",
-    "react-icons": "^5.5.0",
-    "react-redux": "^9.2.0",
-    "react-router": "^7.13.0",
-    "react-router-dom": "^7.13.0",
-    "react-slick": "^0.31.0",
-    "react-toastify": "^11.0.5",
-    "slick-carousel": "^1.8.1"
-  }
-}
->>>>>>> 0692c031c3a1fc257afca56c716d361c89c86796
